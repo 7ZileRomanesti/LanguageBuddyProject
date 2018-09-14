@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Language Buddy - App">
+    <meta name="author" content="Razvan Barbulescu">
+    <meta name="keywords" content="LanguageBuddy, learning, danish, language">
+
+    <title>Language Buddy</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+</head>
+<body>
+<div class="backbutton">
+<a href="main-page.html"><i class="fas fa-arrow-left back"></i></a>
+</div>
+< <!-- Camera -->
+<main id="camera">
+    <!-- Camera sensor -->
+    <canvas id="camera--sensor"></canvas>
+    <!-- Camera view -->
+    <video id="camera--view" autoplay playsinline></video>
+    <!-- Camera output -->
+    <img src="//:0" alt="" id="camera--output">
+    <!-- Camera trigger -->
+    <button id="camera--trigger">Take a picture</button>
+</main>
+
+
+
+
+<!-- Reference to your JavaScript file -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

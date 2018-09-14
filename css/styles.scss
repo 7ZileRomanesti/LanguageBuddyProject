@@ -1,0 +1,727 @@
+/* Import css */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400i,500,500i,600,700,700i,800');
+
+
+
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body  {
+  color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  letter-spacing: 0.2px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #fafafa;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+::-moz-selection {
+  background: #1f2123;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #1f2123;
+  color: #fff;
+  text-shadow: none;
+}
+/* responsive images */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Gradient background*/
+#gradient, #gradient-reg, #gradient-reg-1, #gradient-reg-2{
+  position: absolute;
+  width: 100%;
+  height: auto;
+background-image: linear-gradient(#ff9966, #ff5e62);
+}
+
+/*  Wrapper */
+.wrapper{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Logo */
+
+#logo{
+  width: 100%;
+  position: absolute; /* or absolute */
+  top: 27%;
+}
+.logo{
+  width: 80%;
+}
+
+/* Logo Registration Page */
+#registration-page{
+  margin-top: 10%;
+}
+#registration-page > #logo{
+  position: relative;
+  text-align: center;
+  margin: 0 auto;;
+}
+#registration-page > #logo > .logo{
+  width: 60%;
+}
+
+
+/* icons */
+i {
+  font-size: 21px;
+  color: #fafafa;
+  text-align: left;
+  margin-right: 20px;
+}
+
+
+
+
+/* Buttons */
+button{
+  color: #fafafa;
+  box-shadow: 0px 13px 60px 0px rgba(35, 31, 32, 0.39);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.2px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+button:focus{
+  outline: none;
+}
+#languages > button:focus{
+  background-color: #da70d6;
+}
+.lang-lv > button:focus{
+  background-color: #da70d6;
+}
+.options > button:focus{
+  background-color: #da70d6;
+}
+
+/* Input */
+input{
+  background-color:rgba(250, 250, 250, 0.21);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.2px;
+  color: #fafafa;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+input:focus {
+  background-color: #da70d6;
+  outline: none;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fafafa;
+  opacity: 1; /* Firefox */
+  font-family: 'Poppins', sans-serif;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+
+/* Next Button */
+.next-button{
+  text-align: right;
+  margin-top: 50px;
+}
+.next-button-design{
+  width: 35%;
+  height: 44px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 65px;
+  background-color:#da70d6;
+
+
+}
+.next-button-design > i {
+  font-size: 16px;
+}
+.next-text{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+
+/* Log In Options / Buttons  */
+.log-in-options{
+  width: 100%;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+}
+.new-account, .new-account-google{
+  width: 65%;
+  height: 55px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 65px;
+  background-color:#da70d6;
+  font-size: 19px;
+  font-weight: bold;
+}
+.log-in{
+  width: 65%;
+  height: 55px;
+  border: none;
+  border-radius: 65px;
+  background-color:rgba(250, 250, 250, 0.21);
+}
+.text{
+  color: #fafafa;
+  font-size:14px;
+  font-weight: bold;
+}
+
+/* Registration inputs */
+.input-fields{
+  width: 100%;
+  display: block;
+  margin-top: 40px;
+}
+.instructions{
+  width: 35%;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+
+}
+.registration-input{
+  width: 60%;
+  display: inline-block;
+  height: 38px;
+  border-radius: 20px;
+  border: 0;
+  padding-left: 12px;
+
+}
+
+/* Facebook / Google Plus Log in buttons */
+.third-party-login{
+ margin: 0 auto;
+  text-align: center;
+}
+.third-party-login > .new-account{
+  margin-top: 25px;
+  width: 84%;
+  background-color: #8b9dc3;
+}
+.new-account-google{
+  width: 84%;
+  background-color: #d34836;
+}
+
+.third-party-login-logo{
+  width: 100%;
+}
+.third-party-login > .new-account > .text {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+/* No account */
+.no-account{
+  margin-top: -20px;
+
+}
+.no-account-text{
+  font-weight:400;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* Languages page*/
+
+.question{
+  font-weight: 400;
+  font-size:18px;
+}
+.instruction-text{
+  margin-top: 40px;
+}
+
+#languages{
+  width: 100%;
+  margin: 0 auto;
+}
+.flag > img{
+  width: 15%;
+  vertical-align: middle;
+  padding: 5px;
+  float: left;
+  margin-left: 20px;
+}
+
+.language{
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 65px;
+  font-size: 19px;
+  font-weight: bold;
+  background-color:rgba(250, 250, 250, 0.21);
+}
+.lang-name{
+  margin-right: 8%;
+  margin-top: 30px;
+  line-height: 45px;
+}
+
+/* Language Level Page */
+.lang-lv{
+  margin: 0 auto;
+  margin-top: 25%;
+}
+.lang-lv >  .language{
+  height: 60px;
+  margin-bottom: 20%;
+}
+
+/* Main Page */
+
+/* Header */
+#main-page{
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#main-page > #logo-main{
+  width: 50%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: center;
+}
+#main-page > #logo-main > .logo-main{
+  width: 90%;
+}
+#level{
+  width: 25%;
+  vertical-align: middle;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  margin-left: -8px;
+  margin-right: 7px;
+}
+.level{
+  width: 65%;
+  margin-top: 55px;
+
+}
+#language-chosen{
+  width: 25%;
+  vertical-align: middle;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+.language-chosen{
+  width:54%;
+  margin-top: 59px;
+}
+
+/* Course Text-points */
+.your-level > .instruction-text{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.your-level > .instruction-text-points{
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  padding: 0;
+  margin-top:-9px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+}
+
+#continue-course{
+  text-align: center;
+  width: 100%;
+
+}
+.continue-course{
+  width: 86%;
+  height: 50px;
+  border: none;
+  border-radius: 65px;
+  background-color: #da70d6;
+
+}
+.contiune-course-text{
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.instruction-text-courses{
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+
+/* Path Circles and lines */
+
+.path{
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 9px;
+
+
+
+}
+.nr-level{
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  margin-top: 0;
+
+
+
+}
+.active > p{
+  background-color: #da70d6 !important;
+}
+.on-going > p {
+  border: 3px solid #da70d6 !important;
+  line-height: 3.4em !important;
+}
+
+.nr-level > p{
+  width: 3.6em;
+  height: 3.6em;
+  border-radius: 50%;
+  background-color:rgba(250, 250, 250, 0.21);
+  text-align: center;
+  display: block;
+  line-height: 3.6em;
+}
+
+
+
+/* Sticky nav bar */
+.navbar {
+  overflow: hidden;
+  background-color: #da70d6;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+
+
+
+
+}
+
+.navbar a {
+
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.menu-icons{
+padding-left: 22px;
+
+
+}
+
+.navbar a.active {
+  background-color: #da70d6;
+}
+
+
+
+
+/* Question Page */
+.back{
+  margin-top: 10px;
+  margin-left: -10px;
+}
+.nr-question{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.track{
+  width: 100%;
+  height: 25px;
+  border-radius: 65px;
+  background-color:rgba(250, 250, 250, 0.21);
+  display: block;
+}
+.track:after{
+  content: "";
+  display: block;
+  width: 30%;
+  height: 25px;
+  border-radius: 65px;
+  background-color: #da70d6;
+}
+.canvas{
+  width: 100%;
+  ;
+}
+.canvas > img {
+  border:3px solid #da70d6;
+
+}
+
+/* Buttons from the question */
+.options{
+  width: 100%;
+  text-align: center;
+}
+.answer{
+  width: 45%;
+  height: 40px;
+
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 65px;
+  background-color:rgba(250, 250, 250, 0.21);
+  text-align: center;
+}
+.object-name{
+  font-weight: 500;
+  font-size: 15px;
+
+}
+/* Check Button */
+
+#check{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.check{
+  width: 60%;
+  height: 40px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 65px;
+  background-color: #da70d6;
+}
+.check-button{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+/* Correct Answer */
+.correct-answer{
+  position: absolute;
+  top:35%;
+  left: 5%;
+  text-align: center;
+  background-color: #228b22;
+  width: 90%;
+  border-radius: 65px;
+  padding-bottom: 15px;
+  display: none;
+}
+.wrong-answer{
+    position: absolute;
+    top:35%;
+    left: 5%;
+    text-align: center;
+    background-color: #ae282c;
+    width: 90%;
+    border-radius: 65px;
+    padding-bottom: 15px;
+    display: none;
+}
+.wrong-answer > .text{
+  font-size: 24px;
+}
+.next-question, .next-question-wrong{
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 65px;
+  background-color:rgba(250, 250, 250, 0.21);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  width: 50%;
+  height: 50px;
+}
+
+.correct-answer, .wrong-answer > .instruction-text-points {
+  margin: 0;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.wrong-answer > .instruction-text-points{
+  padding-left: 100px;
+}
+.correct-answer, .wrong-answer  > .text{
+  margin-bottom: 0;
+}
+
+
+/* Camera */
+#camera, #camera--view, #camera--sensor, #camera--output{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#button{
+  position: absolute;
+  z-index: 9999;
+  top:10%;
+  left: 1%;
+}
+#camera--trigger{
+  width: 200px;
+  background-color: #da70d6;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  position: fixed;
+  bottom: 30px;
+  left: calc(50% - 100px);
+}
+.taken{
+  height: 100px!important;
+  width: 100px!important;
+  transition: all 0.5s ease-in;
+  border: solid 3px #da70d6;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+.backbutton > i{
+  color: #da70d6;
+  z-index: 99999;
+
+}
+
+
+/* ProFile Page */
+
+.profile{
+  width: 100%;
+  display: inline-block;
+  margin-top: 30px;
+  border-bottom: 1px solid #fafafa;
+}
+.image-profile{
+  width: 25%;
+  display: inline-block;
+}
+.your-name{
+  width: 65%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-right: 50px;
+}
+.ach > .text{
+  font-size: 20px;
+  margin-top: 2px;
+}
+.medals{
+  border-bottom: 1px solid #fafafa;
+}
+.friend-img{
+  width: 15%;
+  display: inline-block;
+  padding-top: 20px;
+  vertical-align: text-bottom;
+
+}
+
+.friend-name{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 20px;
+
+}
+.aa{
+  opacity: 0;
+}
+
+
+/* Media queries */
+
+@media screen and (min-height: 680px) {
+ #gradient{
+   height: 100% !important;
+ }
+};
+@media screen and (min-height: 750px) {
+  #gradient-reg{
+    height: 100% !important;
+  }
+};
+
+@media screen and (max-height: 570px) {
+  .flag > img{
+    width: 18%;
+  }
+};
+
+@media screen and (min-height: 570px) {
+  #gradient-reg-1{
+    height: 100% !important;
+  }
+};
+@media screen and (min-height: 200px) {
+  #gradient-reg-2{
+    height: 100% !important;
+  }
+};
+
+
+
+

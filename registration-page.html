@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Language Buddy - App">
+    <meta name="author" content="Razvan Barbulescu">
+    <meta name="keywords" content="LanguageBuddy, learning, danish, language">
+
+    <title>Language Buddy </title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="gradient">
+    <div class="wrapper">
+        <header id="registration-page">
+            <div id="logo">
+                <img class="logo" src="img/logo.png">
+            </div>
+        </header>
+        <section id="registration-field">
+                <form class="input-fields">
+
+                   <p class="instructions">Username:</p>
+                    <input class="registration-input" type="text" name="username" placeholder="Type Here">
+                    <p class="instructions">Password:</p>
+                    <input class="registration-input" type="password" name="username" placeholder="Type Here">
+                    <p class="instructions">Repeat password:</p>
+                    <input class="registration-input" type="password" name="username" placeholder="Type Here">
+                    <p class="instructions">E-mail:</p>
+                    <input class="registration-input" type="email" name="username" placeholder="Type Here">
+
+                </form>
+            <div class="third-party-login">
+                <button class="new-account">
+                    <span class="third-party-login-logo"> <i class="fab fa-facebook-f"></i> </span>
+                    <span class="text">Login with faceook</span>
+                </button>
+                <button class="new-account-google">
+                    <span class="third-party-login-logo"> <i class="fab fa-google"></i>
+                    </span>
+                    <span class="text">Login with Gmail</span>
+                </button>
+                <div class="no-account">
+                    <a href="language-page.html">  <p class="no-account-text">Continuing without registration</p> </a>
+                </div>
+            </div>
+        </section>
+        <div class="next-button">
+           <a href="language-page.html"> <button class="next-button-design"><span class="next-text">Next</span>
+               <i class="fas fa-arrow-right"></i>
+            </button></a>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>

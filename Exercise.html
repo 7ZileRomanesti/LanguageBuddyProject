@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Language Buddy - App">
+    <meta name="author" content="Razvan Barbulescu">
+    <meta name="keywords" content="LanguageBuddy, learning, danish, language">
+
+    <title>Language Buddy</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+<div id="gradient-reg-1">
+    <div class="wrapper">
+        <a href="main-page.html"><i class="fas fa-arrow-left back"></i></a>
+        <div class="nr-question">
+        <p class="text">Question 3/10</p>
+            <span class="track"></span>
+        </div>
+        <div class="canvas">
+            <img class="img-canvas" src="img/bike.jpg">
+        </div>
+        <div class="exercise-question">
+            <p class="text">What is in the image?</p>
+        </div>
+        <div class="options">
+            <button class="answer">
+                <span class="object-name">Bil</span>
+            </button>
+            <button class="answer">
+                <span class="object-name">Bygning</span>
+            </button>
+            <button class="answer">
+                <span class="object-name">Dør</span>
+            </button>
+            <button class="answer correct">
+                <span class="object-name">Cykel</span>
+            </button>
+        </div>
+        <div id="check">
+            <button class="check">
+                <span class="check-button">Check</span>
+            </button>
+        </div>
+        <div class="correct-answer">
+            <p class="text">Great Job! That's correct</p>
+            <p class="instruction-text-points">250 points</p>
+            <h1 class="object-translation">Bicycle = Cykel</h1>
+            <button class="next-question">Next Question</button>
+        </div>
+        <div class="wrong-answer">
+            <p class="text"> INCORECT ANSWER! </p>
+            <p class="instruction-text-points">-50 points</p>
+
+            <button class="next-question-wrong">Try Again</button>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+
+</body>
+</html>
